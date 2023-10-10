@@ -1,0 +1,23 @@
+public class Product {
+    int productId;
+    String name;
+    double price;
+
+    public Product(int productId, String name, double price) {
+        this.productId = productId;
+        this.name = name;
+        this.price = price;
+    }
+}
+
+public class Customer {
+    int custId;
+    String password;
+    String mobileNumber;
+
+    public Customer(int custId, String password, String mobileNumber) {
+        this.custId = custId;
+        this.password = password;
+        this.mobileNumber = mobileNumber;
+    }
+}
